@@ -4,4 +4,254 @@
     padding:0;
  }
 
- 
+.simple-nav{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding:38px 140px;
+} 
+
+
+.simple-nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
+.simple-nav ul li{
+    list-style: none;
+}
+
+.simple-nav ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(60, 60, 60);
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+
+}
+
+.hero-section{
+    padding:38px  140px;
+    max-width:1286px;
+    margin:0 auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:40px
+   
+}
+
+.hero-wrap1{
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+
+
+
+.hero-left-content{
+     width:50%;
+     margin: auto;
+    
+}
+
+.hero-left-content h1{
+    font-family: Bebas Neue;
+font-size: 80px;
+font-weight: 700;
+line-height: 80px;
+text-align: left;
+margin-bottom: 18px;
+margin-right: 116px;
+}
+
+.hero-left-content p{
+    color: rgb(62, 62, 62);
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+margin-bottom: 36px;
+}
+
+ button{
+    color: rgb(255, 255, 255);
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+    border:none;
+    padding: 18px 57px;
+    border-radius: 6px;
+background: linear-gradient(0.00deg, rgb(255, 128, 99) -28.333%,rgb(244, 96, 96) 95.833%);
+
+}
+.hero-left-content span{
+  color:rgb(255, 131, 103)
+}
+.hero-right-content{
+    width:50%;
+    position: relative;
+    margin: auto;
+}
+
+.hero-wrap2{
+    display:flex;
+  justify-content:space-between;
+  align-items: center;
+  flex-direction:row-reverse;
+  gap: 174px;
+}
+
+
+.image-1{
+    position:relative;
+   width:408px; 
+   z-index:1;
+  
+}
+
+.zaxis-img1{
+    position:absolute;
+    width: 411px;
+    left: 0px;
+    top: 133px;
+}
+  
+.zaxis-img2{
+    position:absolute;
+    width: 378px;
+    left: -4px;
+    top: 125px;
+}
+
+
+
+
+
+.card-section{
+    padding:100px  140px;
+    background: rgb(248, 249, 252);
+}
+
+
+.card-title-wrap h2{
+      text-align: center;
+      font-family: Bebas Neue;
+font-size: 48px;
+font-weight: 700;
+letter-spacing: 4px;
+margin-bottom: 60px;
+}
+
+.card-title-wrap span{
+ color:rgb(244, 96, 96);
+}
+.card-item-wrap{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+   flex-wrap: 1;
+}
+
+.card-item{
+    width:33%;
+    padding:15px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px #adadad;
+}
+
+.card-item h2{
+    color: rgb(54, 57, 88,0.8);
+font-family: Roboto;
+font-size: 24px;
+font-weight: 700;
+margin-bottom: 20px;
+}
+
+.card-item p{
+    color: rgb(108, 108, 108,0.7);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.card-item img{
+      width:100%;
+      margin-bottom:20px;
+}
+
+
+
+.contact-sec{
+    padding:50px  140px 100px;
+}
+
+
+.upper-div{
+       background-image: url("../asset/shapes/Group_33094_1.png"); 
+       background-repeat: no-repeat;
+       background-position:center;
+       background-size:contain;
+       display: flex;
+       justify-content: space-between;
+       gap:30px;
+       padding: 147px 120px;
+    }
+
+    .upper-div h1    {
+        color: rgb(255, 255, 255);
+font-family: Bebas Neue;
+font-size: 64px;
+font-weight: 700;
+line-height: 64px;
+letter-spacing: 0%;
+text-align: left;
+    }
+    .lower-div {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .lower-div h4{
+        color: rgb(105, 104, 113);
+        font-family: Bebas Neue;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 24px;
+   
+    }
+
+    .lower-div h2{
+        color: rgb(54, 57, 88);
+        font-family: Roboto;
+        font-size: 36px;
+        font-weight: 700;
+        margin-top: 20px;
+
+    }
+
+    .icon-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin-top:30px;
+        
+    }
+
+
+    .icon-div img{
+        width:40px;
+        height: 40px;
+    }
