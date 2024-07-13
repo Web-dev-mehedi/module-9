@@ -135,17 +135,15 @@ background: linear-gradient(0.00deg, rgb(255, 128, 99) -28.333%,rgb(244, 96, 96)
 .btn {
     cursor: pointer;
     color: rgb(255, 255, 255);
-font-family: Roboto;
-font-size: 16px;
-font-weight: 500;
+     font-family: Roboto;
+     font-size:16px;
+     font-weight: 500;
     border:none;
-    padding: 18px 57px;
+    padding: 18px 47px;
     border-radius: 6px;
 background: linear-gradient(0.00deg, rgb(255, 128, 99) -28.333%,rgb(244, 96, 96) 95.833%);
 
 }
-
-
 
 
 
@@ -212,7 +210,11 @@ margin-bottom: 20px;
 
 }
 
-
+.foot-container{
+    margin: 0 auto;
+    max-width:1120px;
+    padding:10px 80px;
+}
 .upper-div{
        background-image: url("../asset/shapes/Group_33094_1.png"); 
        background-repeat: no-repeat;
@@ -221,13 +223,14 @@ margin-bottom: 20px;
        display: flex;
        justify-content: space-between;
        gap:30px;
-       padding: 147px 120px;
+       padding: 147px 90px;
+     
     }
 
     .upper-div h1    {
         color: rgb(255, 255, 255);
 font-family: Bebas Neue;
-font-size:5em;
+font-size:50px;
 font-weight: 700;
 line-height: 64px;
 letter-spacing: 0%;
