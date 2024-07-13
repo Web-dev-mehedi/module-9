@@ -95,9 +95,7 @@ letter-spacing: 3px;
   flex-direction:column-reverse;
   gap: 50px;
 }
-.hero-wrap2{
-    padding-left: 40px;
-}
+
 
 .hero-right-content{
     width:350px;
@@ -109,6 +107,7 @@ letter-spacing: 3px;
      width:100%;
      margin: auto;
      text-align:center;
+     
     
 }
 
@@ -161,9 +160,9 @@ text-align: center;
 }
 
 
-.hero-wrap2{
+/* .hero-wrap2{
  padding-left: 30px;
-}
+} */
 
     
 /* ////////////////////////////////////////////////////////// */
@@ -250,6 +249,7 @@ text-align: center;
             width:400px;
             /* position: relative; */
             margin: auto;
+            
         }
 
         .hero-left-content{
@@ -305,15 +305,10 @@ text-align: center;
         .zaxis-img2{
             position:absolute;
             width: 364px;
-            left: -2px;
-            top: 129px;
+            left: -3px;
+            top: 109px;
         }
 
-
-        .hero-wrap2{
-         padding-left: 30px;
-        }
-        
             
    
 }
