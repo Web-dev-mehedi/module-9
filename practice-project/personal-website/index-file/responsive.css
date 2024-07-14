@@ -1,7 +1,13 @@
 
 
 @media screen and (max-width:576px) {
+        
 
+    nav{
+        background-color: #e5e5e5;
+        padding: 10px 40px;
+        border-radius: 5px;
+     }
 
     .simple-nav {
         display: flex;
@@ -144,6 +150,13 @@ text-align: center;
   
 }
 
+.image-2{
+    position:relative;
+    width:100%; 
+    margin: 0 auto;
+    z-index:1; 
+}
+
 .zaxis-img1{
     position:absolute;
     width: 360px;
@@ -160,10 +173,6 @@ text-align: center;
 }
 
 
-/* .hero-wrap2{
- padding-left: 30px;
-} */
-
     
 /* ////////////////////////////////////////////////////////// */
 
@@ -177,7 +186,11 @@ text-align: center;
     }
 
    
-   
+    nav{
+        background-color: #e5e5e5;
+        padding: 10px 40px;
+        border-radius: 5px;
+     }
    
     .card-section {
         padding: 100px 50px;
@@ -295,6 +308,12 @@ text-align: center;
           
         }
         
+    .image-2{
+        position:relative;
+        width:100%; 
+        margin: 0 auto;
+        z-index:1;
+    }
         .zaxis-img1{
             position:absolute;
             width: 400px;
@@ -305,8 +324,8 @@ text-align: center;
         .zaxis-img2{
             position:absolute;
             width: 364px;
-            left: -3px;
-            top: 109px;
+            left: -2px;
+            top: 129px;
         }
 
             
@@ -364,7 +383,7 @@ text-align: center;
 /* hero section */
 
 .hero-section{
-    padding:18px 50px;
+    padding:38px 50px;
     
    
 }
@@ -378,7 +397,7 @@ text-align: center;
 }
 
 .hero-left-content h1{
-font-size: 3.7em;
+font-size: 3.6em;
 
 }
 
@@ -397,34 +416,41 @@ text-align: left;
 margin-bottom: 36px;
 }
 
-
+.hero-wrap{
+    gap:20px;
+}
 .hero-wrap2{
     display:flex;
   justify-content:space-between;
   align-items: center;
   flex-direction:row-reverse;
-  gap: 115px;
+  gap:115px;
 }
 
 .image-1{
-    position:relative;
-   width:390px; 
+   width:340px; 
    z-index:1;
   
 }
 
+.image-2{
+
+    width:370px; 
+    z-index:1;
+   
+   
+}
+
 .zaxis-img1{
-    position:absolute;
-    width: 393px;
+    width: 343px;
     left: 0px;
-    top: 126px;
+    top: 109px;
 }
   
 .zaxis-img2{
-    position:absolute;
-    width: 365px;
-    left: -7px;
-    top: 115px;
+    width: 342px;
+    left: -4px;
+    top: 114px;
 }
 
 
